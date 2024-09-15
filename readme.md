@@ -1,55 +1,90 @@
 # Praktikum 1
 
-**Langkah 1 dan 2**
-Dapat Dilihat pada code dibawah ini terdapat eror karena pada if dan else tidak menggunakan huruf kecil
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/4sYBwm0/Screenshot-2024-09-15-184636.png" alt="Screenshot-2024-09-15-184636" border="0"></a>
-**Hasil ketika di jalankan**
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/WyT4Z7b/Screenshot-2024-09-15-185123.png" alt="Screenshot-2024-09-15-185123" border="0"></a>
+## **Langkah 1 dan 2**
 
-**Hasil Setelah diperbaiki**
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/hZ2Ty9q/Screenshot-2024-09-15-185302.png" alt="Screenshot-2024-09-15-185302" border="0"></a>
+Terdapat error pada kode di bawah ini karena penulisan `IF` dan `ELSE` tidak menggunakan huruf kecil.
 
-**Langkah 2**
-<a href="https://ibb.co.com/vJWxXn0"><img src="https://i.ibb.co.com/LCyzN7V/Screenshot-2024-09-15-185501.png" alt="Screenshot-2024-09-15-185501" border="0"></a>
-dapat dilihat pada program diatas terjadi eror yang pertama dikarenakan variable test sudah dideklarasikan diatas, lalu eror yang kedua pada bagian condition variable test merupakan tipe string jadi kita tidak bisa memasukkan kedalam kondisi yang sifatnya boolean.
-**Setelah Perbaikan**
-<a href="https://ibb.co.com/FVYm1n5"><img src="https://i.ibb.co.com/DpMzFL9/Screenshot-2024-09-15-185730.png" alt="Screenshot-2024-09-15-185730" border="0"></a>
+![Error pada If Else](https://i.ibb.co/4sYBwm0/Screenshot-2024-09-15-184636.png)
+
+### **Hasil saat dijalankan**
+
+![Hasil Saat Dijalanakan](https://i.ibb.co/WyT4Z7b/Screenshot-2024-09-15-185123.png)
+
+### **Hasil Setelah Diperbaiki**
+
+![Setelah Diperbaiki](https://i.ibb.co/hZ2Ty9q/Screenshot-2024-09-15-185302.png)
+
+## **Langkah 2**
+
+Pada program berikut, terjadi dua error:
+
+1. Variabel `test` sudah dideklarasikan di atas.
+2. Variabel `test` bertipe string, sehingga tidak bisa digunakan dalam kondisi boolean.
+
+![Error pada Langkah 2](https://i.ibb.co/LCyzN7V/Screenshot-2024-09-15-185501.png)
+
+### **Setelah Perbaikan**
+
+![Setelah Diperbaiki](https://i.ibb.co/DpMzFL9/Screenshot-2024-09-15-185730.png)
+
+---
 
 # Praktikum 2
 
-**Langkah 1 dan Langkah 2**
-**Penjelasan :** terjadi eror karena variable counter tidak dideklarasikan
-<a href="https://ibb.co.com/5rmpG7J"><img src="https://i.ibb.co.com/48zvKQ0/Screenshot-2024-09-15-190448.png" alt="Screenshot-2024-09-15-190448" border="0"></a>
-**Perbaikan**
-**penjelasan :** kita hanya perlu mendeklarasikan variable counter dengan tipe data integer karena akan ada penambahan value dibawahnya.
-<a href="https://ibb.co.com/LYCxmn6"><img src="https://i.ibb.co.com/6r4Hzgb/Screenshot-2024-09-15-190634.png" alt="Screenshot-2024-09-15-190634" border="0"></a>
+## **Langkah 1 dan 2**
 
-**Langkah 3**
-**penjelasan :** dari hasil yang berhasil di jalankan pengulangan terjadi hingga angka 76 hal ini dikarenakan pada kondisi while di atur kurang dari 77 sehingga program akan berhenti pada angka 76
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/99hQHqB/Screenshot-2024-09-15-191007.png" alt="Screenshot-2024-09-15-191007" border="0"></a>
+**Penjelasan**: Terjadi error karena variabel `counter` belum dideklarasikan.
+
+![Error Counter](https://i.ibb.co/48zvKQ0/Screenshot-2024-09-15-190448.png)
+
+### **Perbaikan**
+
+**Penjelasan**: Deklarasikan variabel `counter` sebagai tipe integer, karena akan dilakukan penambahan nilai di bawahnya.
+
+![Perbaikan Counter](https://i.ibb.co/6r4Hzgb/Screenshot-2024-09-15-190634.png)
+
+## **Langkah 3**
+
+**Penjelasan**: Pengulangan terjadi hingga angka 76 karena pada kondisi `while` diatur kurang dari 77, sehingga program berhenti di angka 76.
+
+![Hasil Pengulangan](https://i.ibb.co/99hQHqB/Screenshot-2024-09-15-191007.png)
+
+---
 
 # Praktikum 3
 
-**Langkah 1 dan Langkah 2**
-**penjelasan : ** terdapat eror ketika menjalankan kode program tersebtu hal ini dikarenakan variable index tidak dideklarasikan. dna juga ketika kita sudah mendeklarasikan pun akan terjadi infinity loop yang dimana program akan mencetak angka 10 tanpa henti karena kondisi selalu bernilai true hal ini disebabkan oleh deklarasi akhir dari for tidak melakukan increment pada variable Index.
-<a href="https://ibb.co.com/Rpn90LP"><img src="https://i.ibb.co.com/1fVLqHK/Screenshot-2024-09-15-191226.png" alt="Screenshot-2024-09-15-191226" border="0"></a>
+## **Langkah 1 dan 2**
 
-**Setelah Perbaikan**
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/BPpy5LW/Screenshot-2024-09-15-191931.png" alt="Screenshot-2024-09-15-191931" border="0"></a>
+**Penjelasan**:
 
-**Langkah 3**
-**Penjelasn : ** terdapat eror dikarenakan terdapat kesalahan pada penulisan code
-<a href="https://ibb.co.com/Hq9NJLP"><img src="https://i.ibb.co.com/89Qzhnx/Screenshot-2024-09-15-193101.png" alt="Screenshot-2024-09-15-193101" border="0"></a>
+- Terdapat error karena variabel `index` belum dideklarasikan.
+- Jika sudah dideklarasikan, program akan masuk **infinite loop** karena kondisi selalu bernilai true. Hal ini terjadi karena tidak ada increment pada variabel `index`.
 
-**Setelah diperbaiki**
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/5RQ1pm9/Screenshot-2024-09-15-193223.png" alt="Screenshot-2024-09-15-193223" border="0"></a>
-penjelasan looping berhenti pada angka 21 dikarenakan di dalam for loop terdapat kondisi yang menyatakan jika variable Index sudah mencapai 21 maka break yang artinya keluar dari loop.
+![Error Infinite Loop](https://i.ibb.co/1fVLqHK/Screenshot-2024-09-15-191226.png)
+
+### **Setelah Perbaikan**
+
+![Setelah Perbaikan Infinite Loop](https://i.ibb.co/BPpy5LW/Screenshot-2024-09-15-191931.png)
+
+## **Langkah 3**
+
+**Penjelasan**: Error terjadi karena penulisan kode yang salah.
+
+![Error Penulisan Kode](https://i.ibb.co/89Qzhnx/Screenshot-2024-09-15-193101.png)
+
+### **Setelah Diperbaiki**
+
+**Penjelasan**: Loop berhenti pada angka 21 karena terdapat kondisi `break` yang keluar dari loop saat variabel `index` mencapai 21.
+
+![Perbaikan Break](https://i.ibb.co/5RQ1pm9/Screenshot-2024-09-15-193223.png)
+
+---
 
 # Tugas
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/F3JFHP8/Screenshot-2024-09-15-194043.png" alt="Screenshot-2024-09-15-194043" border="0"></a>
+![Tugas](https://i.ibb.co/F3JFHP8/Screenshot-2024-09-15-194043.png)
 
-## Penjelasan Singkat Kode
+## **Penjelasan Singkat Kode**
 
 1. **Deklarasi Nama dan NIM**:
 
