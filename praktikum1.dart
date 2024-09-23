@@ -1,18 +1,11 @@
-void main() {
-  String test = "test2";
-  if (test == "test1") {
-    print("Test1");
-  } else if (test == "test2") {
-    print("Test2");
-  } else {
-    print("Something else");
-  }
+void main(List<String> args) {
+  var list = [1, 2, 3];
+  assert(list.length == 3);
+  assert(list[1] == 2);
+  print(list.length);
+  print(list[1]);
 
-  if (test == "test2") print("Test2 again");
-
-  // kode program langkah kedua
-  bool test2 = true;
-  if (test2) {
-    print("Kebenaran");
-  }
+  list[1] = 1;
+  assert(list[1] == 1);
+  print(list[1]);
 }
