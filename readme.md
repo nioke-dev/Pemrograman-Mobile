@@ -51,3 +51,46 @@ Pada langkah 3, kode akan berhasil dieksekusi tanpa error, karena:
 **Menambahkan Elemen ke Set**
 
 <a href="https://ibb.co.com/t3Rvkrt"><img src="https://i.ibb.co.com/mSp21Ww/Screenshot-2024-09-26-230813.png" alt="Screenshot-2024-09-26-230813" border="0"></a>
+
+# **Praktikum 3**
+
+<a href="https://ibb.co.com/F5TnGbW"><img src="https://i.ibb.co.com/X7RVmZ4/Screenshot-2024-09-26-231034.png" alt="Screenshot-2024-09-26-231034" border="0"></a>
+
+**Penjelasan:**
+
+- `gifts` adalah `Map` dengan key bertipe `String` dan value yang dapat bertipe `String` atau `int`.
+- `nobleGases` adalah `Map` dengan key bertipe `int` dan value yang dapat bertipe `String` atau `int`.
+
+### Langkah 3
+
+<a href="https://ibb.co.com/g31BsKN"><img src="https://i.ibb.co.com/bPh8p9T/Screenshot-2024-09-26-231605.png" alt="Screenshot-2024-09-26-231605" border="0"></a>
+
+### Langkah 3
+
+#### 1. Deklarasi `Map` Kosong
+
+- `mhs1` dan `mhs2` dideklarasikan sebagai `Map` kosong.
+  - `mhs1` memiliki kunci dan nilai bertipe `String`.
+  - `mhs2` memiliki kunci bertipe `int` dan nilai bertipe `String`.
+
+#### 2. Manipulasi Nilai dalam `gifts`
+
+- Kode ini mengubah nilai pada kunci yang ada dalam `gifts`.
+  - Sebagai contoh, kunci `'fifth'` yang awalnya berisi angka `1`, diubah menjadi `'golden rings'`.
+  - Ini menunjukkan fleksibilitas `Map` untuk mengubah entri yang ada.
+
+#### 3. Menambah Nilai dalam `nobleGases`
+
+- Nilai baru ditambahkan ke dalam `nobleGases` untuk kunci yang ada dan juga menambahkan kunci baru `18` dengan nilai `'argon'`.
+  - Ini memperlihatkan cara `Map` menyimpan dan mengelola data dengan kunci unik.
+
+#### 4. Menambahkan Nama dan NIM
+
+- Elemen tambahan dimasukkan ke dalam `mhs1` dan `mhs2`.
+  - Misalnya, `mhs1` diisi dengan nama dan NIM.
+  - `mhs2` diisi dengan nama yang memiliki kunci `1`.
+  - Ini menggambarkan bagaimana `Map` dapat digunakan untuk menyimpan informasi dengan cara yang terstruktur.
+
+#### Kesimpulan
+
+Langkah ini memberikan pemahaman yang lebih baik tentang bagaimana `Map` di Dart dapat digunakan untuk menyimpan dan memanipulasi data. Melalui proses ini, kita belajar tentang penggunaan kunci unik dalam akses dan pengelolaan data, serta fleksibilitas dalam mengubah nilai dalam `Map`.
