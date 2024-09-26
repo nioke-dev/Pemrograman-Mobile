@@ -1,5 +1,3 @@
-# Praktikum 1
-
 ### Langkah 1 dan 2
 
 Jika kode tersebut dijalankan, berikut adalah hasil yang akan muncul di console: </br>
@@ -15,3 +13,13 @@ Jika kode tersebut dijalankan, berikut adalah hasil yang akan muncul di console:
 - Modifikasi elemen list: `list[1] = 1;` mengubah nilai elemen pada indeks ke-1 menjadi `1`.
 - Assert ketiga: `assert(list[1] == 1);` memverifikasi bahwa perubahan tersebut berhasil dilakukan.
 - Print ketiga: `print(list[1]);` mencetak nilai elemen pada indeks ke-1, yang sekarang adalah `1`.
+
+### Langkah 3
+
+<a href="https://ibb.co.com/XWRGnHq"><img src="https://i.ibb.co.com/qDQ2H6v/Screenshot-2024-09-26-225546.png" alt="Screenshot-2024-09-26-225546" border="0"></a>
+
+Pada langkah 3, kode akan berhasil dieksekusi tanpa error, karena:
+
+1.  Variabel `list` telah dideklarasikan sebagai `final`, yang berarti elemen-elemennya bisa diubah, tetapi ukuran list dan referensi ke list tersebut tidak bisa diubah.
+2.  `List<dynamic>.filled(5, null)` membuat list dengan panjang 5, diisi dengan nilai `null` secara default, sehingga setiap elemen dapat diganti dengan tipe data apapun, termasuk `String` untuk nama dan NIM.
+3.  Elemen pada indeks 1 dan 2 diisi dengan nama dan NIM, kemudian hasil list dicetak.
