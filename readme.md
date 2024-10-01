@@ -194,3 +194,99 @@ Penjelasan:
 - Hasil yang Diharapkan:
   - print(listOfStrings) akan mencetak: ['#0', '#1', '#2', '#3'], menunjukkan bahwa semua elemen telah ditambahkan dengan benar.
   - Manfaat Collection For: Menggunakan collection for memungkinkan kita untuk dengan mudah membuat list baru berdasarkan list yang sudah ada dengan sintaks yang lebih bersih dan jelas.
+
+# Praktikum 5
+
+**Langkah 1**
+
+```dart
+void main() {
+  var record = ('first', a: 2, b: true, 'last');
+  print(record);
+}
+
+```
+
+**Penjelasan:**
+
+- Record: Di sini kita mendeklarasikan sebuah record yang berisi dua string ('first' dan 'last'), serta dua field bernama a (bernilai 2) dan b (bernilai true).
+- Hasil yang Diharapkan: Eksekusi kode ini akan mencetak nilai dari record, seperti: ('first', a: 2, b: true, 'last').
+
+**Langkah 2**
+
+Setelah mengeksekusi kode pada langkah 1, jika tidak ada error, maka hasilnya akan seperti yang dijelaskan di atas. Namun, jika Anda mengalami error, pastikan Anda menggunakan Dart versi 3.0 atau lebih baru.
+
+**Langkah 3**
+
+```dart
+(int, int) tukar((int, int) record) {
+  var (a, b) = record;
+  return (b, a);
+}
+
+void main() {
+  var record = (1, 2);
+  var swapped = tukar(record);
+  print('Original: $record'); // Prints: Original: (1, 2)
+  print('Swapped: $swapped'); // Prints: Swapped: (2, 1)
+}
+
+```
+
+**Penjelasan:**
+
+- Fungsi tukar: Fungsi ini menerima record bertipe (int, int) dan mengembalikan tuple dengan nilai yang ditukar.
+- Di dalam main, kita memanggil fungsi tukar untuk menukar nilai record dan mencetak hasilnya.
+- Hasil yang Diharapkan:
+  - print('Original: $record') akan mencetak Original: (1, 2).
+  - print('Swapped: $swapped') akan mencetak Swapped: (2, 1).
+
+**Langkah 4**
+
+```dart
+void main() {
+  (String, int) mahasiswa;
+
+  // Inisialisasi dengan nama dan NIM
+  mahasiswa = ('Muhammad Nurul Mustofa', 2241720022);
+  print(mahasiswa);
+}
+
+```
+
+**Penjelasan:**
+
+- Record type annotation: Kita mendeklarasikan variabel mahasiswa bertipe record (String, int).
+- Setelah itu, kita menginisialisasi record tersebut dengan nama dan NIM Anda.
+- Hasil yang Diharapkan: Eksekusi kode ini akan mencetak ('Muhammad Nurul Mustofa', 2241720022).
+
+**Langkah 5**
+
+```dart
+void main() {
+  var mahasiswa2 = ('first', a: 2, b: true, 'last');
+
+  // Mengakses field dalam record
+  print(mahasiswa2.$1); // Prints 'first'
+  print(mahasiswa2.a);   // Prints 2
+  print(mahasiswa2.b);   // Prints true
+  print(mahasiswa2.$2);   // Prints 'last'
+
+  // Gantilah salah satu isi record
+  mahasiswa2 = ('Muhammad Nurul Mustofa', a: 2241720022, b: true, 'last');
+  print(mahasiswa2); // Prints the updated record
+}
+
+```
+
+Penjelasan:
+
+- Di sini, kita mendeklarasikan mahasiswa2 sebagai record.
+- Mengakses elemen record menggunakan $1, a, b, dan $2 untuk mendapatkan nilai dari field.
+- Setelah itu, kita memperbarui record mahasiswa2 dengan nama dan NIM Anda.
+- Hasil yang Diharapkan:
+  - print(mahasiswa2.$1) akan mencetak first.
+  - print(mahasiswa2.a) akan mencetak 2.
+  - print(mahasiswa2.b) akan mencetak true.
+  - print(mahasiswa2.$2) akan mencetak last.
+  - Setelah pembaruan, print(mahasiswa2) akan mencetak record yang telah diperbarui.
