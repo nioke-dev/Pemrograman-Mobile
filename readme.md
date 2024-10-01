@@ -54,6 +54,7 @@ Pada langkah 3, kode akan berhasil dieksekusi tanpa error, karena:
 
 # **Praktikum 3**
 
+**Langkah 1 dan 2**
 <a href="https://ibb.co.com/F5TnGbW"><img src="https://i.ibb.co.com/X7RVmZ4/Screenshot-2024-09-26-231034.png" alt="Screenshot-2024-09-26-231034" border="0"></a>
 
 **Penjelasan:**
@@ -65,7 +66,7 @@ Pada langkah 3, kode akan berhasil dieksekusi tanpa error, karena:
 
 <a href="https://ibb.co.com/g31BsKN"><img src="https://i.ibb.co.com/bPh8p9T/Screenshot-2024-09-26-231605.png" alt="Screenshot-2024-09-26-231605" border="0"></a>
 
-### Langkah 3
+### Penjelasan
 
 #### 1. Deklarasi `Map` Kosong
 
@@ -94,3 +95,102 @@ Pada langkah 3, kode akan berhasil dieksekusi tanpa error, karena:
 #### Kesimpulan
 
 Langkah ini memberikan pemahaman yang lebih baik tentang bagaimana `Map` di Dart dapat digunakan untuk menyimpan dan memanipulasi data. Melalui proses ini, kita belajar tentang penggunaan kunci unik dalam akses dan pengelolaan data, serta fleksibilitas dalam mengubah nilai dalam `Map`.
+
+Penjelasan:
+
+# Praktikum 4'
+
+### Langkah 1, 2 dan 3
+
+**Langkah 1**
+
+- List Literal: list adalah sebuah list yang berisi angka [1, 2, 3].
+- Spread Operator (...): Pada list2, kita menggunakan spread operator ...list. Ini berarti semua elemen dari list (yaitu 1, 2, dan 3) ditambahkan ke dalam list2 setelah angka 0.
+- Kesalahan (Error): Awalnya, kode berisi print(list1), tetapi list1 tidak dideklarasikan, jadi ini akan menyebabkan error. Mengganti dengan print(list) akan memperbaikinya.
+- Hasil yang Diharapkan:
+  - print(list) akan mencetak [1, 2, 3].
+  - print(list2) akan mencetak [0, 1, 2, 3].
+  - print(list2.length) akan mencetak panjang dari list2, yaitu 4.
+
+**Langkah 2**
+
+```dart
+var list1 = [1, 2, null];
+print(list1);
+var list3 = [0, ...?list1];
+print(list3.length);
+
+```
+
+**Penjelasan:**
+
+- List dengan Null: list1 adalah sebuah list yang berisi nilai [1, 2, null], di mana salah satu elemennya adalah null.
+- Spread Null-Aware Operator (...?): ...?list1 adalah operator spread null-aware, yang berarti jika list1 mengandung nilai null, maka nilainya diabaikan dan tidak menyebabkan error. Hal ini menghindari error saat menyebarkan (spread) elemen list yang berisi null.
+- Hasil yang Diharapkan:
+  - print(list1) akan mencetak [1, 2, null].
+  - list3 akan mencetak [0, 1, 2, null], karena null tidak diabaikan dalam list itu sendiri, tetapi operator ...? memastikan tidak ada error.
+  - print(list3.length) akan mencetak 4, karena ada empat elemen dalam list list3.
+
+**Langkah 3**
+
+```dart
+var nim = [2, 2, 4, 1, 7, 2, 0, 0, 2, 2]; // NIM Anda
+var list4 = [...nim];
+print(list4);
+
+```
+
+Penjelasan:
+
+- Spread Operator (...) untuk List: Pada list4, spread operator digunakan untuk menyalin elemen-elemen dari list nim ke list4. Ini berguna untuk membuat salinan list atau menambahkan elemen-elemen dari list lain.
+- NIM sebagai List: Variabel nim berisi digit dari NIM Anda. Dengan menggunakan spread operator, kita bisa menggabungkan NIM ke dalam list lain atau memanipulasinya.
+- Hasil yang Diharapkan:
+  - print(list4) akan mencetak [2, 2, 4, 1, 7, 2, 0, 0, 2, 2], yaitu NIM Anda dalam bentuk list.
+
+**Langkah 4**
+
+```dart
+var promoActive = true; // Atur menjadi false untuk pengujian lain
+var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+print(nav);
+```
+
+**Penjelasan:**
+
+- List dengan Kondisi: Pada list nav, kita menggunakan if-statement untuk menambahkan elemen 'Outlet' hanya jika variabel promoActive bernilai true.
+- Hasil yang Diharapkan:
+  - Jika promoActive adalah true, print(nav) akan mencetak: ['Home', 'Furniture', 'Plants', 'Outlet'].
+  - Jika promoActive adalah false, print(nav) akan mencetak: ['Home', 'Furniture', 'Plants'].
+
+**Langkah 5**
+
+```dart
+var login = 'Manager'; // Ubah nilai untuk pengujian lain
+var nav2 = ['Home', 'Furniture', 'Plants', if (login == 'Manager') 'Inventory'];
+print(nav2);
+```
+
+**Penjelasan:**
+
+- List dengan Kondisi Berdasarkan Login: Pada list nav2, kita menambahkan elemen 'Inventory' hanya jika variabel login bernilai 'Manager'.
+- Hasil yang Diharapkan:
+  - Jika login adalah 'Manager', print(nav2) akan mencetak: ['Home', 'Furniture', 'Plants', 'Inventory'].
+  - Jika login adalah nilai lain (misalnya 'User'), print(nav2) akan mencetak: ['Home', 'Furniture', 'Plants'].
+
+**Langkah 6**
+
+```dart
+var listOfInts = [1, 2, 3];
+var listOfStrings = ['#0', for (var i in listOfInts) '#$i'];
+assert(listOfStrings[1] == '#1');
+print(listOfStrings);
+
+```
+
+Penjelasan:
+
+- Collection For: Pada listOfStrings, kita menggunakan collection for untuk membuat elemen baru berdasarkan elemen dari listOfInts. Setiap elemen dari listOfInts ditambahkan ke dalam listOfStrings dengan format '#i'.
+- Assert: Pernyataan assert(listOfStrings[1] == '#1') memverifikasi bahwa elemen kedua dari listOfStrings adalah '#1'.
+- Hasil yang Diharapkan:
+  - print(listOfStrings) akan mencetak: ['#0', '#1', '#2', '#3'], menunjukkan bahwa semua elemen telah ditambahkan dengan benar.
+  - Manfaat Collection For: Menggunakan collection for memungkinkan kita untuk dengan mudah membuat list baru berdasarkan list yang sudah ada dengan sintaks yang lebih bersih dan jelas.
