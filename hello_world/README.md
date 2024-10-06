@@ -25,3 +25,11 @@ A new Flutter Project
 **Dialog Widget**
 
 <img src="images/show alert dialog.gif">
+
+**Input dan Selection Widget**
+
+<img src="images/Input dan Selection Widget.gif">
+
+**Date and Time Pickers**
+
+<img src="images/Date and Time Pickers.gif">
