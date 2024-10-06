@@ -1,16 +1,27 @@
-# hello_world
+# Hello World
 
-A new Flutter project.
+A new Flutter Project
 
-## Getting Started
+**Praktikum 3**
 
-This project is a starting point for a Flutter application.
+<img src="images/ss1.png">
 
-A few resources to get you started if this is your first Flutter project:
+**Praktikum 4**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="images/ss2.png">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="images/ss3.png">
+
+**Praktikum 5**
+
+**Cupertino Button dan Loading Bar**
+
+<img src="images/ss4.png">
+
+**Floating Action Button (FAB)**
+
+<img src="images/ss5.png">
+
+**Dialog Widget**
+
+<img src="images/show alert dialog.gif">
