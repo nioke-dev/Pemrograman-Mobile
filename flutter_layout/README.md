@@ -1,16 +1,21 @@
-# flutter_layout
+Nama : Muhammad Nurul Mustofa  
+Kelas : TI 3A  
+Nim : 2241720022
 
-A new Flutter project.
+---
 
-## Getting Started
+# Praktikum 1 Membangun Layout di Flutter
 
-This project is a starting point for a Flutter application.
+## Hasil akhir dari praktikum 1
 
-A few resources to get you started if this is your first Flutter project:
+<img src="image_documentation/praktikum 1.png">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Praktikum 2 Implementasi Button Row
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hasil akhir dari praktikum 2
+
+<img src="image_documentation/praktikum 2.png">
+
+## Hasil akhir dari praktikum 3 dan 4
+
+<img src="image_documentation/praktikum 3 & 4.png">
