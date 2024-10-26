@@ -1,3 +1,7 @@
+Nama : Muhammad Nurul Mustofa  
+Kelas : TI 3A  
+Nim : 2241720022
+
 # uts
 
 A new Flutter project.
