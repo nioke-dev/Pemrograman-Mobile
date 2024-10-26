@@ -17,7 +17,7 @@ class PendingPage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             const Text(
-              'All transactions are completed!',
+              'Semua transaksi sudah beres!',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -26,7 +26,7 @@ class PendingPage extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              'Any pending transactions will appear on this page.',
+              'Setiap transaksi yang masih dalam proses akan muncul di halaman ini!',
               style: TextStyle(
                 fontSize: 14,
                 color: Colors.grey,

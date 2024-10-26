@@ -175,9 +175,9 @@ class _BalanceCardState extends State<BalanceCard> {
                                 Text(
                                   _texts[_currentIndex],
                                   style: const TextStyle(
-                                    color: Colors.black,
+                                    color: Colors.red,
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 14,
+                                    fontSize: 18,
                                   ),
                                 ),
                                 if (_texts[_currentIndex] == "Aktifkan") ...[
@@ -195,6 +195,9 @@ class _BalanceCardState extends State<BalanceCard> {
                       ),
                     ),
                   ),
+                ),
+                const SizedBox(
+                  width: 10,
                 ),
               ],
             ),

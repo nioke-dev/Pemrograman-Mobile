@@ -34,7 +34,7 @@ class _HistoryPageState extends State<HistoryPage>
           controller: _tabController,
           tabs: const [
             Tab(text: 'Pending'),
-            Tab(text: 'Done'),
+            Tab(text: 'Selesai'),
           ],
           indicatorColor: Colors.red,
         ),
@@ -52,33 +52,33 @@ class _HistoryPageState extends State<HistoryPage>
   Widget _buildTransactionList() {
     return const TransactionList(transactions: [
       {
-        "title": "Pay Merchant",
-        "amount": "Rp45.400",
-        "date": "15 Sep 2024, 17:32 WIB",
-        "description": "Indomaret_purchase",
-        "status": "Success"
+        "title": "Pembayaran Merchant",
+        "amount": "Rp30.000",
+        "date": "20 Okt 2024, 14:15 WIB",
+        "description": "Pembelian di Alfamart",
+        "status": "Sukses"
       },
       {
-        "title": "Pay Merchant",
-        "amount": "Rp55.000",
-        "date": "15 Sep 2024, 17:28 WIB",
-        "description": "Indomaret_purchase",
-        "status": "Success"
+        "title": "Pembayaran Merchant",
+        "amount": "Rp75.000",
+        "date": "20 Okt 2024, 14:00 WIB",
+        "description": "Pembelian di Indomaret",
+        "status": "Sukses"
       },
       {
-        "title": "Top Up from Bank",
-        "amount": "Rp100.000",
-        "date": "15 Sep 2024, 17:26 WIB",
-        "description": "Top Up from ortajasa B_001145615163862752",
-        "status": "Success"
+        "title": "Top Up Saldo",
+        "amount": "Rp150.000",
+        "date": "19 Okt 2024, 16:30 WIB",
+        "description": "Top Up dari BCA - 123456789",
+        "status": "Sukses"
       },
       {
-        "title": "Pay QRIS",
-        "amount": "Rp21.000",
-        "date": "31 Aug 2024, 11:49 WIB",
-        "description": "SBY - MOG TP S1",
-        "status": "Success"
-      },
+        "title": "Pembayaran QRIS",
+        "amount": "Rp50.000",
+        "date": "18 Okt 2024, 10:45 WIB",
+        "description": "Pembayaran di Restoran XYZ",
+        "status": "Sukses"
+      }
     ]);
   }
 }
