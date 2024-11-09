@@ -9,3 +9,7 @@ Nim : 2241720022
 ## Hasil Akhir Praktikum 5
 
 <img src="image_documentation/Hasil Akhir Praktikum 5.png">
+
+## Hasil Akhir Tugas Praktikum 2
+
+<img src="image_documentation/tugas.gif" width="400px">
