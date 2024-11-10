@@ -309,7 +309,7 @@ Tambahkan kode seperti berikut pada bagian try / catch agar dapat menampilkan ha
 
 **Hasil**
 
-<img src="image_documentation/HasilLangkah 8.gif" width="540px">
+<img src="image_documentation/HasilLangkah.gif" width="540px">
 
 **Kode Program**
 **lib/main.dart**
