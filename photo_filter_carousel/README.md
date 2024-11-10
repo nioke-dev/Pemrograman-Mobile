@@ -403,4 +403,7 @@ import 'package:flutter/rendering.dart' show ViewportOffset;
 ```
 
 **Hasil**
-![alt text](<../img/Praktikum 2 Kamera.gif>)
+
+https://github.com/user-attachments/assets/a2338c9c-61aa-46ed-8593-917ee480b818
+
+
