@@ -146,3 +146,9 @@ Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
    - `overflow`: Menentukan cara pemotongan teks jika lebih panjang dari ruang yang tersedia. Dalam contoh praktikum ini, diatur dengan `TextOverflow.ellipsis`, yang menampilkan tiga titik (...) di akhir teks yang terpotong.
 
 6. **Kumpulkan laporan praktikum berupa link repository GitHub saya kepada dosen.**
+
+## Tugas Kelompok
+
+<img src="image_documentation/tugaspbl.jpg">
+
+PBL github repository Link : https://github.com/PBL-Semester-5-Kelompok-3/Flutter_TomScan
